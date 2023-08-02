@@ -24,6 +24,11 @@ const (
 	ArtifactStatusUploadError = 3
 )
 
+
+
+
+
+
 func init() {
 	db.RegisterModel(new(ActionArtifact))
 }
